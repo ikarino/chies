@@ -1,0 +1,14 @@
+# Sidebar navigation
+
+- label: '新着嬢情報'
+  link: '/new'
+  items:
+    - label: '2021/01/06'
+      link: '/new/2021-01-06'
+
+- label: '地域別情報'
+  items:
+    - label: 新宿・歌舞伎町
+      link: /busty/0010
+    - label: 新大久保・高田馬場・目白
+      link: /busty/0020
