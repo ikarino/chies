@@ -1,7 +1,9 @@
 import React from "react"
 import DmmAffiliateIns from "./DmmAffiliateIns"
+import { useWindowWidth } from "./myWindow";
 
 const KeywordTable = props => {
+    const width = useWindowWidth();
     const MAX_ROWS = 9;
 
     const shops = props.shops;
@@ -47,7 +49,7 @@ const KeywordTable = props => {
                     <td><a href={shop.url}>{shop.name}</a><br />@{shop.station}</td>{tds}
                 </tr>
             });
-            const tcls = t.keys.length > 5 && window.innerWidth < 500
+            const tcls = t.keys.length > 5 && width < 500
             return <div key={`table-${num}`}><table className={tcls ? "scrollable": "original"}>
                 {header}
                 <tbody>{trs}</tbody>
