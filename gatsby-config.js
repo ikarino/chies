@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Kyonyu-Chies.work`,
+        short_name: `KCW`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
