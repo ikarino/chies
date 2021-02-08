@@ -2,6 +2,8 @@
 
 - label: '新着嬢情報'
   items:
+    - label: '2021/02/06'
+      link: /new/2021-02-06
     - label: '2021/02/05'
       link: /new/2021-02-05
     - label: '2021/02/04'
@@ -14,8 +16,6 @@
       link: /new/2021-02-02
     - label: '2021/02/01'
       link: /new/2021-02-01
-    - label: '2021/01/31'
-      link: /new/2021-01-31
 
 - label: '地域別情報'
   items:
