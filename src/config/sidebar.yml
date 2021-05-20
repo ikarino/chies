@@ -2,6 +2,8 @@
 
 - label: '新着嬢情報'
   items:
+    - label: '2021/05/19'
+      link: /new/2021-05-19
     - label: '2021/05/15'
       link: /new/2021-05-15
     - label: '2021/05/13'
@@ -14,8 +16,6 @@
       link: /new/2021-05-10
     - label: '2021/05/09'
       link: /new/2021-05-09
-    - label: '2021/05/08'
-      link: /new/2021-05-08
 
 - label: '地域別情報'
   items:
